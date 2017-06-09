@@ -6,6 +6,8 @@
 
 #### on Github: [https://github.com/gitasong/ping-pong](https://github.com/gitasong/ping-pong)
 
+#### on Github Pages: [https://gitasong.github.io/ping-pong](https://gitasong.github.io/ping-pong)
+
 ## Description
 
 Variant of the classic "fizz-buzz" problem where the user enters a number and the browser returns the count up to the number, replacing multiples of 3 with "ping," multiples of 5 with "pong," and multiples of both 3 and 5 with "ping-pong."
