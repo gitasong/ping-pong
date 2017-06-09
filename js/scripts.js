@@ -2,6 +2,7 @@
 
 
 
+
 // user-interface logic goes here
 $(document).ready(function() {
   $("button").click(function(event) {
@@ -9,6 +10,7 @@ $(document).ready(function() {
     var userNumber = parseInt($("input#user-input").val());
 
     $(".results").show();
-    $("#results").append("<li> some results </li>");
+    $("#results").empty();
+    $("#results").append("<li>" + userNumber + "</li>");
   });
 });
