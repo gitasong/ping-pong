@@ -58,7 +58,7 @@ Variant of the classic "fizz-buzz" problem where the user enters a number and th
 
 ## Known Bugs
 
-No known bugs.
+Count/Results section will still display after Submit button click and alert if user enters 0, non-numeric input, mixed input, or no input.
 
 ## Support and contact details
 
