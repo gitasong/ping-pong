@@ -8,6 +8,18 @@ The program will enter new results when the user clicks the "Submit" button and 
 Example Input: <new input>
 Expected Output: <new results>
 
+The program will handle no input with the error message "Please enter a number."
+Example Input: <null>
+Expected Output: "Please enter a number"
+
+The program will handle non-numeric input with the error message "Please enter a number."
+Example Input: "*!$$@^%"
+Expected Output: "Please enter a number"
+
+The program will handle mixed numeric and non-numeric input with the error message "Please enter a number."
+Example Input: "miners79"
+Expected Output: "Please enter a number."
+
 The program can count up to the provided number.
 Example Input: 2
 Expected Output: [1, 2]
