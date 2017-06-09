@@ -1,3 +1,42 @@
+body {
+  background-image: url(../img/ping-pong-bg.jpg);
+  background-repeat: none;
+  background-size: cover;
+  color: #555;
+}
+
+.jumbotron {
+  background-color: #d99a6f;
+}
+
+.jumbotron h1 {
+  color: #fff;
+}
+
+.jumbotron h3 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#main {
+  background-color: rgba(244, 244, 244, 0.8);
+  margin-left: 0px;
+  padding: 50px 50px 80px 70px;
+}
+
+.btn {
+  background-color: #d10b00;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #f44c00;
+  color: #fff;
+}
+
 .results {
   display: none;
+}
+
+li {
+  list-style: none;
 }
