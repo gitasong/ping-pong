@@ -1,13 +1,19 @@
 // back-end logic goes here
 function pingPong(userNumber) {
   if (!userNumber) {
-    alert("Please enter a number.");
+    alert("Please enter a number."); //need to change to "Please enter a number greater than 0."
     return "";
   } else if (userNumber) {
-    countArray = [];
-    for (counter = 1; counter <= userNumber; counter ++) {
-      countArray.push(counter);
-      // console.log(countArray);
+    var countArray = [];
+    var counter = 1;
+    while (counter <= userNumber) {
+      if (counter % 3 === 0) {
+        countArray.push("ping");
+        counter ++;
+      } else {
+        countArray.push(counter);
+        counter ++;
+      };
     };
     return countArray;
   };
