@@ -28,15 +28,24 @@ function pingPong(userNumber) {
 
 // user-interface logic goes here
 $(document).ready(function() {
-  $("button").click(function(event) {
+  $("button#play").click(function(event) {
     event.preventDefault();
     var userNumber = parseInt($("input#user-input").val());
-
     $(".results").show();
     $("#results").empty();
     var countArray = pingPong(userNumber);
     for (counter = 0; counter < userNumber; counter ++) {
       $("#results").append("<li>" + countArray[counter] + "</li>");
+    };
+  });
+  $("button#reverse").click(function(event) {
+    event.preventDefault();
+    var userNumber = parseInt($("input#user-input").val());
+    $("#results").empty();
+    var countArray = pingPong(userNumber);
+    var reversedArray = countArray.reverse();
+    for (counter = 0; counter < userNumber; counter ++) {
+      $("#results").append("<li>" + reversedArray[counter] + "</li>");
     };
   });
 });
