@@ -34,6 +34,9 @@ $(document).ready(function() {
 
     $(".results").show();
     $("#results").empty();
-    $("#results").append("<li>" + pingPong(userNumber) + "</li>");
+    var countArray = pingPong(userNumber);
+    for (counter = 0; counter < userNumber; counter ++) {
+      $("#results").append("<li>" + countArray[counter] + "</li>");
+    };
   });
 });
