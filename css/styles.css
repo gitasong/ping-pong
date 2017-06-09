@@ -5,22 +5,44 @@ body {
   color: #555;
 }
 
+a {
+  color: #d10b00;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #f44c00;
+  font-weight: 700;
+}
+
 .jumbotron {
   background-color: #d99a6f;
 }
 
 .jumbotron h1 {
   color: #fff;
+  font-family: 'Architects Daughter', sans-serif;
 }
 
 .jumbotron h3 {
   color: rgba(255, 255, 255, 0.7);
+  font-family: 'Architects Daughter', sans-serif;
 }
 
 #main {
   background-color: rgba(244, 244, 244, 0.8);
   margin-left: 0px;
-  padding: 50px 50px 80px 70px;
+  padding: 50px 50px 50px 70px;
+}
+
+.heading h2 {
+  color: #d10b00;
+  font-family: 'Architects Daughter', sans-serif;
+  font-weight: 700;
+}
+
+label {
+  font-size: 16px;
 }
 
 .btn {
@@ -39,4 +61,16 @@ body {
 
 li {
   list-style: none;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+.center-block {
+  text-align: left;
+}
+
+#github {
+  font-weight: 700;
 }
