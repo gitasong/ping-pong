@@ -10,6 +10,9 @@ function pingPong(userNumber) {
       if (counter % 3 === 0) {
         countArray.push("ping");
         counter ++;
+      } else if (counter % 5 === 0) {
+        countArray.push("pong");
+        counter ++;
       } else {
         countArray.push(counter);
         counter ++;
