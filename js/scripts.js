@@ -7,7 +7,10 @@ function pingPong(userNumber) {
     var countArray = [];
     var counter = 1;
     while (counter <= userNumber) {
-      if (counter % 3 === 0) {
+      if ((counter % 3 === 0) && (counter % 5 === 0)) {
+        countArray.push("ping-pong");
+        counter ++;
+      } else if (counter % 3 === 0) {
         countArray.push("ping");
         counter ++;
       } else if (counter % 5 === 0) {
